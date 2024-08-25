@@ -6,7 +6,7 @@ An *acticon* is an icon in the systemtray which has one or multiple actions asso
 
 To download, head over to the [releases](https://github.com/ITCMD/Icotray/releases) and get the most recent copy of the executable.
 
-This tool was made for me by [Mnoronen on Fiverr](https://www.fiverr.com/mnoronen), I very much recommend him.
+This repository was forked from the @ITCMD's original.  It hosts the source code for a tool made for @ITCMD by [Mnoronen on Fiverr](https://www.fiverr.com/mnoronen). "<em>I very much recommend him</em>" -- @ITCMD.
 
 If you detect any bugs, please report them on the issues page.
 
@@ -65,10 +65,10 @@ Flags:
 Use "icotray [command] --help" for more information about a command.
 ```
 
-### Add Command
+### In-App Help
 
-This command is used to add a acticon to the system tray. By default, the icon does not have any functionality or actions associated with it. This must either be configured using the flags or the interactive mode.  
-By calling `icotray.exe add --help` or `icotray.exe help add`, the following text will be printed out.
+>[!TIP]
+>The following help documentation can be accessed from the command line by calling `icotray.exe add --help` or `icotray.exe help add`.
 
 ```bash
 Adds an acticon to the system tray.
